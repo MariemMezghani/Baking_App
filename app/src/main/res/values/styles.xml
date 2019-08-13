@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="labelTextViewStyle">
+        <item name="android:textColor">@color/labelColor</item>
+        <item name="android:layout_marginTop">@dimen/label_margin_top</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@color/textBackground</item>
+
+    </style>
+
+    <style name="textViewStyle">
+        <item name="android:paddingTop">@dimen/text_margin_top</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@color/textBackground</item>
+    </style>
+
+    <style name="stepViewStyle">
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:padding">@dimen/padding</item>item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="descriptionTextViewStyle">
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@color/whiteColor</item>
+        <item name="android:padding">@dimen/padding</item>item>
+        <item name="android:layout_margin">@dimen/padding</item>item>
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+    <style name="widgetTextViewStyle">
+        <item name="android:textColor">@color/labelColor</item>
+        <item name="android:textSize">@dimen/stepTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/textBackground</item>
+
+
+
+    </style>
+
+</resources>
